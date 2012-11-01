@@ -2,15 +2,35 @@
 
 This project is used for workshop purposes and contains examples of (hopefully) good practices for bash scripting.
 
+!
+
 # Examples
+- [Debugging](#debugging)
+- [Syntax](#syntax)
+- [Organizing files](#organizing-files)
+- [Functions and configuration](#functions-and-configuration)
+- [Return values and return statuses](#return-values-and-return-statuses)
+- [Pitfall return values](#pitfall-return-values)
+- [Pitfall return statuses](#pitfall-return-statuses)
+- [Including common functionality](#including-common-functionality)
+- [Debugging revisited](#debugging-revisited)
+- [Logging](#logging)
+- [Unit testing framework](#unit-testing-framework)
+- [Unit testing using the && and || operators](#unit-testing-using-the-&&-and-||-operators)
+- [Unit testing with asserts](#unit-testing-with-asserts)
+- [Simple deploy and rollback](#simple-deploy-and-rollback)
+
+!
 
 ## Debugging
 
-**Source:** [scripts/debugging\_easy\_example.sh](bash-tutorial/blob/master/scripts/debugging\_easy\_example.sh) and [scripts/debugging\_tougher\_example.sh](bash-tutorial/blob/master/scripts/debugging\_easy\_example.sh)
+**Source:** [scripts/debugging\_easy\_example.sh](bash-tutorial/blob/master/scripts/debugging\_easy\_example.sh) [scripts/debugging\_tougher\_example.sh](bash-tutorial/blob/master/scripts/debugging\_easy\_example.sh)
 
 **The point:** Debugging is hard in bash.
 
 **Assignment:** Find the bugs.
+
+!
 
 ## Syntax
 
@@ -20,6 +40,8 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 
 **Assignment:** Try out the different ifs and explain the differences, when to use, and what you prefer.
 
+!
+
 ## Organizing files
 
 **Source:** The project tree.
@@ -27,6 +49,8 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 **The point:** Understand convention over configuration and why it is important to put different types of files in different places.
 
 **Assignment:** How would you organize your files when you have specific scripts for different projects residing in different folders.
+
+!
 
 ## Functions and configuration
 
@@ -36,6 +60,8 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 
 **Assignment:** Go through the functions and try to understand them. Write your own function. How can you run the functions directly from the command line?
 
+!
+
 ## Return values and return statuses
 
 **Source:** [include/common\_functions.sh](bash-tutorial/blob/master/include/common\_functions.sh) (functions: \_is\_snapshot, \_startServers, \_find\_version\_from\_pom and \_delete)
@@ -43,6 +69,8 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 **The point:** Understand the differences between a return value and a return status.
 
 **Assignment:** Revisit the functions and explain what the different functions return (values and/or statuses)
+
+!
 
 ## Pitfall return values
 
@@ -52,12 +80,16 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 
 **Assignment:** Comment in the echo statement in the function and see what happens. Why?
 
+!
+
 ## Pitfall return statuses
 **Source:** [scripts/pitfall\_return\_status.sh](bash-tutorial/blob/master/scripts/pitfall\_return\_status.sh)
 
 **The point:** Understand a common pitfall when using return statuses.
 
 **Assignment:** Why do the two statements return different statuses?
+
+!
 
 ## Including common functionality
 
@@ -67,6 +99,8 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 
 **Assignment:** Write a function in a file and include and use it in a script.
 
+!
+
 ## Debugging revisited
 
 **Source:** [include/common\_functions.sh scripts/debugging.sh](bash-tutorial/blob/master/include/common\_functions.sh scripts/debugging.sh)
@@ -74,6 +108,8 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 **The point:** Understand how you can debug your scripts without executing "dangerous" commands. Understand the -x, the -u, and the set -e set +e constructs.
 
 **Assignment:** Write debugging for a function or script where it is lacking.
+
+!
 
 ## Logging
 
@@ -83,6 +119,8 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 
 **Assignment:** Write logging configuration to switch betwwen logging to file and stdout.
 
+!
+
 ## Unit testing framework
 
 **Source:** [tests/runAll.sh](bash-tutorial/blob/master/tests/runAll.sh)
@@ -91,6 +129,8 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 
 **Assignment:** Make running of tests part of your build (scripts/package.sh)
 
+!
+
 ## Unit testing using the && and || operators
 
 **Source:** [tests/testMs.sh](bash-tutorial/blob/master/tests/testMs.sh)
@@ -98,6 +138,8 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 **The point:** An example of how you can unit test bash functions using the && and || operators.
 
 **Assignment:** Write a unit test. Is this readable?
+
+!
 
 ## Unit testing with asserts
 
@@ -108,6 +150,8 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 **Assignment:** How does assertEquals differ from the assertTrue in e. g. jUnit? Write an assertTrue function and a test that uses it. Is this more readable?
 
 **Bonus assignment:** Write an assertArrayEquals function and a test that uses it.
+
+!
 
 ## Simple deploy and rollback
 
