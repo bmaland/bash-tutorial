@@ -41,14 +41,6 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 
 **Assignment:** Try out the different ifs and explain the differences, when to use, and what you prefer.
 
-## Organizing files
-
-**Source:** The project tree.
-
-**The point:** Understand convention over configuration and why it is important to put different types of files in different places.
-
-**Assignment:** How would you organize your files when you have specific scripts for different projects residing in different folders.
-
 !
 
 ## Functions and configuration
