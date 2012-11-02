@@ -7,7 +7,6 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 # Examples
 - [Debugging](#debugging)
 - [Syntax (readability)](#syntax)
-- [Organizing files](#organizing-files)
 - [Functions and configuration](#functions-and-configuration)
 - [Return values and return statuses](#return-values-and-return-statuses)
 - [Pitfall return values](#pitfall-return-values)
@@ -18,6 +17,8 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 - [Unit testing framework](#unit-testing-framework)
 - [Unit testing using the && and || operators](#unit-testing-using-the-&&-and-||-operators)
 - [Unit testing with asserts](#unit-testing-with-asserts)
+- [Organizing files](#organizing-files)
+- [Packaging your app](#packaging-ypur-app)
 - [Simple deploy and rollback](#simple-deploy-and-rollback)
 
 !
@@ -39,8 +40,6 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 **The point:** You can do similar things in different ways in bash.
 
 **Assignment:** Try out the different ifs and explain the differences, when to use, and what you prefer.
-
-!
 
 ## Organizing files
 
@@ -152,6 +151,24 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 **Bonus assignment:** Write an assertArrayEquals function and a test that uses it.
 
 !
+
+## Organizing files
+
+**Source:** The project tree.
+
+**The point:** Understand convention over configuration and why it is important to put different types of files in different places.
+
+**Assignment:** How would you organize your files when you have specific scripts for different projects residing in different folders.
+
+!
+
+## Packaging your app
+
+**Source:** [scripts/package.sh](bash-tutorial/blob/master/scripts/package.sh)
+
+**The point:** An example of how you can package your app.
+
+**Assignment:** Package your app. What is the result?
 
 ## Simple deploy and rollback
 
