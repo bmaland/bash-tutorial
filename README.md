@@ -6,7 +6,7 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 
 # Examples
 - [Debugging](#debugging)
-- [Syntax](#syntax)
+- [Syntax (readability)](#syntax)
 - [Organizing files](#organizing-files)
 - [Functions and configuration](#functions-and-configuration)
 - [Return values and return statuses](#return-values-and-return-statuses)
@@ -32,7 +32,7 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 
 !
 
-## Syntax
+## Syntax (readability)
 
 **Source:** [scripts/syntax.sh](bash-tutorial/blob/master/scripts/syntax.sh)
 
