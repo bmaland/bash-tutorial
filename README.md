@@ -193,5 +193,7 @@ http://rerun.github.com/rerun/
 
 ## Thats all folks!
 Contact me:
+
 * Google: steinim@gmail.com
+
 * Twitter: @steinim
