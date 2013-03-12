@@ -1,4 +1,4 @@
-# #!/bin/bash for programmers.
+# #!/bin/bash for programmers
 
 !
 
