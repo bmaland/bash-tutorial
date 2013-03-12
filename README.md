@@ -1,5 +1,7 @@
 # #!/bin/bash for programmers.
 
+!
+
 # About
 
 This project is used for workshop purposes and contains examples of (hopefully) good practices for bash scripting.
