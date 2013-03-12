@@ -181,3 +181,4 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 
 [Rerun](http://rerun.github.com/rerun/)  - a simple command runner that turns loose shell scripts into modular automation.
 
+http://rerun.github.com/rerun/
