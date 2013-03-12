@@ -22,6 +22,7 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 - [Organizing files](#organizing-files)
 - [Packaging your app](#packaging-ypur-app)
 - [Simple deploy and rollback](#simple-deploy-and-rollback)
+- [Rerun](#rerun)
 
 !
 
@@ -164,6 +165,8 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 
 **Assignment:** Package your app. What is the result?
 
+!
+
 ## Simple deploy and rollback
 
 **Source:** [scripts/deploy.sh](bash-tutorial/blob/master/scripts/deploy.sh) [scripts/rollback.sh](bash-tutorial/blob/master/scripts/rollback.sh)
@@ -171,6 +174,8 @@ This project is used for workshop purposes and contains examples of (hopefully) 
 **The point:** These scripts are not very testable.
 
 **Assignment:** Make the scripts testable.
+
+!
 
 ## Rerun
 
